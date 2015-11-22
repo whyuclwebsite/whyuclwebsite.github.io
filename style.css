@@ -1,0 +1,85 @@
+* {
+	font-family: 'Raleway' , sans-serif;
+	font-size: 20px;
+}
+
+#header {
+	border-style:dotted;
+	color: rgb(0,0,0) 18%,rgb(71,71,71) 20%,rgb(242,242,242) 23%);
+	text-align: center;
+	text-transform: bold;
+	font-size: x-large;
+	padding: 20px;
+	height: 200px;
+    background: -webkit-linear-gradient(white, rgb(99,154,221)); 
+    background: -o-linear-gradient(white, rgb(99,154,221)); 
+    background: -moz-linear-gradient(white, rgb(99,154,221)); 
+    background: linear-gradient(white, rgb(99,154,221)); 
+}
+
+#sectionone {
+	background: rgb(99,154,221)
+}
+
+#sectiontwo {
+	background: url("https://www.ucl.ac.uk/ah/images/hp-ucl-portico-alt.jpg");
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+#footer {
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	color: rgb(0,0,0) 18%,rgb(71,71,71) 20%,rgb(242,242,242) 23%);
+	text-decoration: underline; 
+}
+
+h2 {
+	color: rgb(0,0,0) 18%,rgb(71,71,71) 20%,rgb(242,242,242) 23%);
+    text-decoration: underline;
+}
+
+table {
+	display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: rgba(0,0,255,0.3);
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 15px;
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#share-buttons img {
+width: 20px;
+padding: 0px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+@media (max-width:500px) {}
