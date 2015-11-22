@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200' rel='stylesheet' type='text/css'>
+				<title>Sorcha</title>
+	<META NAME="description" CONTENT="Sorcha's About Me Page">
+	<META NAME="keywords" CONENT="Sorcha, about, me, UCL, Arts, Sciences">
+			<link rel="stylesheet" href="style.css.css">
+			<link rel="stylesheet" href="layout.css">
+		</head>
+		<body>
+	</div>
+		<h1>Arts and Sciences</h1>
+			<p class="under"><b>BASc</b></p>
+				<button onclick="myFunction()">A little page info</button>
+				<article>
+					<h2>About the Course</h2>
+					<p>Arts and Sciences is for those of you who are interested in everything and anything. It's a course that doesn't restrict you to one particular area of study. It lets you choose whatever you want.
+			</br>
+					When you are on this course you will be challenged, you will have people with completely different perspectives on the same issue and you will most likely be the only one doing all the modules you have chosen.</p>
+				<h2>Modules: What modules can you have?</h2>
+					<p>Firstly, our of the four available pathways you choose a major and a minor pathway. If you choose a <em>scienc-y</em> you have to chose an <em>arts-y</em> minor and vice versa.</p>
+				<ul>
+						<p><b>Science Pathways</b></p>
+								<li><a href="http://www.ucl.ac.uk/basc/prospective/pathways/health-environment/" target="_blank">Health and Environment</a></li>
+								<li><a href="http://www.ucl.ac.uk/basc/prospective/pathways/sciences-engineering/" target="_blank">Science and Engineering</a></li>
+							<p><b>Arts Pathways</b></p>
+								<li><a href="http://www.ucl.ac.uk/basc/prospective/pathways/cultures/" target="_blank">Cultures</a></li>
+								<li><a href="http://www.ucl.ac.uk/basc/prospective/pathways/societies/" target="_blank">Societies</a></li>
+						</ul>
+				</article>	
+			<article>
+				<p>I took the <b>Health and Environment</b> pathway as my major and the <b>Societies</b> pathway as my minor. The modules that I choose within each one are below:</P>
+				<ul>
+					<li>Biochemistry and Molecular Biology</li>
+					<li>Open Source Synthetic Biology</li>
+					<li>Statistics and Computing</li>
+					<li>Macroeconomics</li>
+				</ul>
+			</p>
+		</article>
+		<article>
+			<h1 class="serious">Languages</h1>
+				<p>Part of being a BASc student is having a knowledge and understanding in a lot of different areas....and languages are no exception!</P>
+					<div>
+				<p>You have to take a langauge as part of your degree. You can start a new one from scratch (like I did for <b>Mandarin</b>), or you can carry on one that you learnt at school. You choose the level you are most confident at.</p>
+	  	<h1 class="serious">Available Languages</h1>
+  		<p>
+  	<table cellspacing="5" cellpadding="10" bordercolor="00FF00">
+  		<tr>
+    		<td>Mandarin</td>
+    		<td>Japanese</td> 
+    	</tr>
+    	<tr>
+    		<td>Arabic</td>
+   	 		<td>Russian</td>
+  		</tr>
+ 		 <tr>
+   			 <td>Spanish</td>
+   			 <td>German</td> 
+   		</tr>
+   		<tr>
+   			 <td>French</td>
+   			 <td>Dutch</td>
+  		</tr>
+  	</p>
+	</table>
+	</article>
+		<article>
+			<!--tried to create a way for it to collect data but it just kept messing up!-->
+				<form method="post" action="server_file_to_process_form_data">
+					<p><b>BASc - Do you think this is the course for you?</b></p>
+						<p>
+							<INPUT TYPE="radio" NAME="answer" value="1">YES I would love to do it!<br>
+							<INPUT TYPE="radio" NAME="answer" value="2">Maybe...I'm still not that sure.</br>
+							<INPUT TYPE="radio" NAME="answer" value="3">Nope, I want something more specialised<br>
+							<INPUT TYPE="radio" NAME="answer" value="4">I wish I could've chosen this course!<br>
+						<INPUT TYPE="submit" name="submit" value="Let's click!">
+					</form>
+				</p>
+		</article>
+	<div>
+		<article>
+			<h1 class="serious">Interested in BASc?</h1>
+			<p>If you think BASc is for you, check it out in more detail <a href="https://www.ucl.ac.uk/basc" target="_blank">HERE</a>.</p>
+		</article>
+	</div>
+		<article>
+			<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="Why UCL?" data-text="Why I chose UCL:" data-hashtags="whyucl">Tweet</a>
+				<p><a href="#top"><em>Up to the top!</em></a></p>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+			</script>
+			<script>
+			function myFunction() {
+				alert("Hello!\nWelcome to the Arts and Sciences Page written by me - Sorcha.\nA first year undergrad BASc student.\nI'm really enjoying the course. It's definitely challenging, especially the modules I have chosen but it's good to be challenged!\nThis page just gives you a little outline of the BASc course with a link included so you can check it out for yourself");
+			}
+			</script>
+	</body>
+</html>
